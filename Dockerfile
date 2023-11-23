@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+FROM tensorflow/tensorflow:2.13.0-gpu
 # FROM python:3.11.4
 # FROM tensorflow/tensorflow:2.13.0
 
