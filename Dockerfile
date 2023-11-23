@@ -1,5 +1,5 @@
 # FROM tensorflow/tensorflow:2.4.0rc1-gpu-jupyter
-FROM tensorflow/tensorflow:2.4.3-gpu
+FROM tensorflow/tensorflow:2.10.0
 # FROM tensorflow/tensorflow:2.13.0-gpu
 # FROM python:3.11.4
 # FROM tensorflow/tensorflow:2.13.0
