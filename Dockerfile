@@ -1,7 +1,7 @@
 # FROM tensorflow/tensorflow:2.4.0rc1-gpu-jupyter
-FROM tensorflow/tensorflow:2.11.0
+# FROM tensorflow/tensorflow:2.11.0
 # FROM tensorflow/tensorflow:2.13.0-gpu
-# FROM python:3.11.4
+FROM python:3.11.4
 # FROM tensorflow/tensorflow:2.13.0
 
 WORKDIR /app
