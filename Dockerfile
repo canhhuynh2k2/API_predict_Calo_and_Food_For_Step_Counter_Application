@@ -6,6 +6,8 @@ FROM tensorflow/tensorflow:2.14.0
 
 WORKDIR /app
 RUN python3 -m pip install --upgrade pip
+RUN pip install --force-reinstall blinker
+RUN pip uninstall blinker
 # RUN apt-get update -y
 # RUN apt-get install -y python3-pip python3-dev build-essential hdf5-tools libgl1 libgtk2.0-dev
 COPY . /app
